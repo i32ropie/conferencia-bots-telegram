@@ -2,7 +2,7 @@
 import telebot
 
 # Declaramos el bot
-bot = telebot.TeleBot('<TOKEN>', skip_pending=True)
+bot = telebot.TeleBot('<TOKEN>')
 
 # Declaramos la función que recibirá todos los mensajes que el bot reciba
 # Esta función recibirá como parámetro una lista de mensajes (Los recibidos
