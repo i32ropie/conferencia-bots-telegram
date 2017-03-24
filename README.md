@@ -22,3 +22,9 @@ Aquí introducimos un control de usuarios básico. Consistirá en almacenar en u
 ### [Ejemplo 3](https://github.com/i32ropie/conferencia-bots-telegram/blob/master/Ejemplos/control_usuario3.py)
 
 Por desgracia nuestro bot no agradará a todo el mundo siempre, por lo que puede ser útil el contar con un comando para dar de baja a los usuarios del bot. Para ello manejaremos el comando `/stop` y actualizaremos nuestra función de añadir usuarios para que dependiendo de un parámetro más podamos usarla tanto para añadir como para borrar usuarios.
+
+# Bot usando un API
+
+### [Ejemplo 1](https://github.com/i32ropie/conferencia-bots-telegram/blob/master/Ejemplos/letras.py)
+
+En este caso, el bot carece de listener ya que para el propósito del mismo no es necesario. La funcionalidad del bot es poder transformar los caracteres de un texto mandado al bot a otra tipografía curiosa como podría ser ᶜᵒᵐᵒ ᵉˢᵗᵃˢ.
